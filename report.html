@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>b85c9275e5324d84afa879d2c5e727e9</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section
+id="домашняя-работа-1-часть-1-первичный-анализ-данных-фондового-рынка"
+class="cell markdown" data-colab_type="text" id="J3PjcaBpt--G">
+<h1>Домашняя работа №1. Часть №1. Первичный анализ данных фондового
+рынка.</h1>
+<p><b>рынок:</b> Бразилия<br> <b>период:</b> 2018 год</p>
+<p>Выполнили студенты группы <b>22ПМИ-2</b></p>
+<p>Коршунова Анастасия, <br> Деркач Алёна, <br> Бовырин Денис</p>
+</section>
+<div class="cell markdown" data-colab_type="text" id="aZApkfj5t--I">
+<p><b> 1. Собрать информацию по указанному фондовому рынку (сколько
+активов, когда начались торги, основные компании…). Собрать данные по
+дневным ценам активов (акций) на заданном фондовом рынке за указанный
+период (1 год, примерно 250 наблюдений).</p>
+</div>
+<div class="cell markdown">
+<p>Мы нашли информацию о бразильских компаниях за 2018 год на сайте <a
+href="https://www.marketwatch.com/"
+class="uri">https://www.marketwatch.com/</a> и выделили 10 основных:</p>
+<ol>
+<li>Banco Bradesco<br />
+</li>
+<li>Bicicletas Monark</li>
+<li>Braskem</li>
+<li>Centrais Eletricas Brasileiras</li>
+<li>Companhia Siderurgica Nacional Ord</li>
+<li>Cyrela Brazil Realty</li>
+<li>Embraer S.A.</li>
+<li>GOL Linhas Aereas Inteligentes</li>
+<li>Itau Unibanco Holding S.A. Ord</li>
+<li>Light S/A Ord</li>
+</ol>
+<p>Все данные были записаны в excel файле Data.xlsx. В файле указаны
+дата, отрытие/закрытие торгов, самое высокое/низкое значение и
+объем.</p>
+</div>
+<div class="cell markdown" data-colab_type="text" id="k2VynQ-nt--q">
+<p><b>2. Преобразовать данные по ценам в данные по доходностям
+(используйте логарифмическую доходность). Вычислите оценки ожидаемых
+доходностей и стандартных отклонений и постройте «карту» активов в
+системе координат (σ, E).</p>
+</div>
+<div class="cell markdown">
+<p>В этой же таблице мы добавили столбец с преобразованием данных по
+ценам в данные по доходностям (Return и log_retern). Столбец 'Return'
+был добавлен для наглядности и проверки данных. В дальнейшем для
+подсчетов будет использоваться только log_return.</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#  Функция для вычисления стандартного отклонения</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> find_risk(data):</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    risk <span class="op">=</span> data[<span class="st">&#39;log_return&#39;</span>].std()</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> risk</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">#  Функция для вычисления ожидаемой доходности</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> find_expected_return(data):</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    expected_return <span class="op">=</span> data[<span class="st">&#39;log_return&#39;</span>].mean()</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> expected_return</span></code></pre></div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>expected_returns <span class="op">=</span> {}</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>risks <span class="op">=</span> {}</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co">#  Находим ожидаемую доходность и стандартное отклонение для каждого актива и записываем в словари</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> sheet, data <span class="kw">in</span> data_sheets.items():</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    expected_returns[sheet] <span class="op">=</span> find_expected_return(data)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    risks[sheet] <span class="op">=</span> find_risk(data)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Два актива (Banco Bradesco и Braskem) имеют очень близкие значения
+(выделено зелёным), поэтому на графике видно только 9 активов.</p>
+</div>
+<div class="cell markdown">
+<p><img src="Карта%20активов-3.png" alt="Карта активов-3.png" /></p>
+</div>
+<div class="cell markdown" data-colab_type="text" id="sFfd_WWat-_B">
+<p><b>3. Найдите все Парето оптимальные активы (те активы,
+характеристики которых нельзя улучшить сразу по двум критериям).
+Отметьте их на карте активов.</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#  Поиск Парето оптимальных активов</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>optimal_assets <span class="op">=</span> []</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, point_1 <span class="kw">in</span> risk_and_return.iterrows():</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    flag <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> j, point_2 <span class="kw">in</span> risk_and_return.iterrows():</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (point_2[<span class="st">&#39;E&#39;</span>] <span class="op">&gt;=</span> point_1[<span class="st">&#39;E&#39;</span>] <span class="kw">and</span> point_2[<span class="st">&#39;σ&#39;</span>] <span class="op">&lt;</span> point_1[<span class="st">&#39;σ&#39;</span>]) <span class="kw">or</span> (</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>            point_2[<span class="st">&#39;E&#39;</span>] <span class="op">&gt;</span> point_1[<span class="st">&#39;E&#39;</span>] <span class="kw">and</span> point_2[<span class="st">&#39;σ&#39;</span>] <span class="op">&lt;=</span> point_1[<span class="st">&#39;σ&#39;</span>]):</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>            flag <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> flag:</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>        optimal_assets.append(point_1)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>optimal_assets <span class="op">=</span> pd.DataFrame(optimal_assets)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Все Парето оптимальные активы выделены красным.</p>
+</div>
+<div class="cell markdown">
+<p><img src="Парето%20оптимальные%20активы.png"
+alt="Парето оптимальные активы.png" /></p>
+</div>
+<div class="cell markdown" data-colab_type="text" id="OEvX_OPwt-_g">
+<p><b>4. Задайте уровень доверия 0,95 и оцените VaR (Value at Risk =
+Сумма под Риском, Потери = - Доходности) для Парето-оптимальных активов
+вашего рынка. Какой из активов наиболее предпочтителен по этой
+характеристике? Где он расположен на карте активов?</p>
+</div>
+<div class="cell markdown">
+<p>Рассчёт показателя VaR производился при помощи функции
+scipy.norm.ppf() (Probability Point Function), были рассмотренны
+Парето-оптимальные активы следующих компаний: "Banco Bradesco", "GOL
+Linhas Aereas Inteligentes", "Centrais Eletricas Brasileiras"</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>clvl <span class="op">=</span> <span class="fl">0.95</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(companies)):</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    VaR <span class="op">=</span> norm.ppf(clvl, ESigmaList[i][<span class="dv">0</span>], ESigmaList[i][<span class="dv">1</span>])</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;для </span><span class="sc">%s</span><span class="st">: VaR - </span><span class="sc">%f</span><span class="st">&quot;</span> <span class="op">%</span> (companies[i], VaR))</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>вывод:<br> для Banco Bradesco: VaR - 0.011753<br> для GOL Linhas
+Aereas Inteligentes: VaR - 0.107996<br> для Centrais Eletricas
+Brasileiras: VaR - 0.011730</p>
+</div>
+<div class="cell markdown">
+<p>По рассмотриваемой характеристике наиболее предпочтительным активом
+является Centrais Eletricas Brasileiras. Этот актив является высоким по
+средней доходности, при этом значение риска относительно других активов
+у него сильно больше, имеет смысл рассмотреть также актив Banco Bradesco
+с гораздо меньшим уровнем риска.</p>
+</div>
+<div class="cell markdown" data-colab_type="text" id="Qd1hpabst-_x">
+<p><b>5. Задайте уровень доверия 0,95 и оцените CVaR (Conditional Value
+at Risk = Условная Сумма под Риском, Потери = - Доходности) для
+Парето-оптимальных активов вашего рынка. Какой из активов наиболее
+предпочтителен по этой характеристике? Где он расположен на карте
+активов? Сравните с результатом предыдущего пункта.</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(companies)):</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    n <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    VaR <span class="op">=</span> norm.ppf(clvl, ESigmaList[i][<span class="dv">0</span>], ESigmaList[i][<span class="dv">1</span>])</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> j <span class="kw">in</span> log_results[i]:</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="bu">float</span>(j) <span class="op">&lt;=</span> <span class="bu">float</span>(VaR):</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>            result <span class="op">-=</span> j</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>            n <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;для </span><span class="sc">%s</span><span class="st">: CVaR - </span><span class="sc">%f</span><span class="st">&quot;</span> <span class="op">%</span> (companies[i], result<span class="op">/</span>n))</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Вывод:<br> для Banco Bradesco: CVaR - 0.008586<br> для GOL Linhas
+Aereas Inteligentes: CVaR - 0.000745<br> для Centrais Eletricas
+Brasileiras: CVaR - 0.020786</p>
+</div>
+<div class="cell markdown">
+<p>С тем же самым уровнем доверия по показателю CVaR можно сделать вывод
+о том, что компания GOL Linhas Aereas Inteligentes является наиболее
+удачным активом, однако сумма под риском у него относительно высока. Это
+означает, что вероятность понести убытки при вложении в данный актив
+относительно высока, однако размер этих убытков сильно меньше чем,
+например у Centrais Eletricas Brasileiras, условная сумма под риском
+которого примерно в 30 раз больше, чем у GOL Linhas Aereas
+Inteligentes.</p>
+</div>
+<div class="cell markdown" data-colab_type="text" id="-oQ6E7s1t_Bh">
+<p><b>6. Выберите несколько интересных (значимых) активов вашего рынка.
+Можно ли считать наблюдаемые доходности конкретного актива повторной
+выборкой из некоторого распределения (белый шум)? Поищите научные
+подходы к ответу на этот вопрос (проверка гипотезы о случайности,
+Ивченко Г.И. Медведев Ю.И. Введение в математическую статистику).</p>
+</div>
+<div class="cell markdown" data-colab_type="text" id="prSNUNhft_CP">
+<p><b>7. Выберите несколько интересных (значимых) активов рынка из
+разных производственных секторов. В предположении, что наблюдаемые
+доходности являются повторной выборкой из некоторого распределения
+исследовать (выборочно) распределения доходностей выбранных активов.
+Можно ли считать, что распределения доходностей подчиняются нормальному
+закону распределения?</p>
+</div>
+<div class="cell markdown">
+<p>Выберем всё те же активы, используемые в прошлых пунктах и проверим
+их распределение доходностей на подчинение нормальному закону
+распределения. Для начала построим гистограмы доходностей каждого
+актива.</p>
+</div>
+<div class="cell markdown">
+<p><img src="Banco%20Bradesco.PNG" alt="alt text" /></p>
+</div>
+<div class="cell markdown">
+<p><img src="Centrais%20Eletricas%20Brasileiras.PNG"
+alt="Centrais Eletricas Brasileiras.PNG" /></p>
+</div>
+<div class="cell markdown">
+<p><img src="vertopal_bc5554323aec4b8c9a6a2ba41421e84a/GOLL.PNG"
+alt="GOLL.PNG" /></p>
+</div>
+<div class="cell markdown">
+<p>Из графической репрезентации распределения доходностей можно сделать
+предположение о том, что все распределения подчиняются нормальному,
+однако следует проверить это аналитическим путём, а именно использовать
+тест Шапиро-Уилка на нормальность распределения</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(companies)):</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    stat, p <span class="op">=</span> stats.shapiro(log_results[i])</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;для </span><span class="sc">%s</span><span class="st">: statistics: </span><span class="sc">%f</span><span class="st"> p-value - </span><span class="sc">%f</span><span class="st">&quot;</span> <span class="op">%</span> (companies[i], stat, p))</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>вывод:<br> для Banco Bradesco: statistics: 0.992792 p-value -
+0.283359<br> для GOL Linhas Aereas Inteligentes: statistics: 0.979497
+p-value - 0.001340<br> для Centrais Eletricas Brasileiras: statistics:
+0.980999 p-value - 0.002360</p>
+</div>
+<div class="cell markdown">
+<p>Если считать, что гипотеза о нормальности не отвергается с уровнем
+значимости 0.05, видно что распределение доходностей Banco Bradesco
+действительно можно считать нормальным, в то время как у остальных
+p-value сильно ниже удовлетворяющего гипотезе. Возможно это связано с
+наличием небольших "пиков" с возрастанием доходности в районе 0.12 и
+0.16.</p>
+</div>
+<div class="cell markdown" data-colab_type="text" id="7Qd_-XTbt_Dm">
+<p><b>8. Если в п.7 ответ отрицательный, какие другие законы
+распределения доходностей соответствуют данным наблюдений?</p>
+</div>
+<div class="cell markdown">
+<p>Компании Centrais Eletricas Brasileiras и GOL Linhas Aereas
+Inteligentes близки к нормальному распределению, но имеют небольшие
+отклонения по краям распределения. Такие отклонения, как у Centrais
+Eletricas Brasileiras иногда называют fat tail или толстый хвост кривой.
+Вместо того, чтобы стремиться к оси абсцисс (к нулю), кривая может
+отрываться от неё, что не соответствует нормальному распределению.</p>
+</div>
+<div class="cell markdown" data-colab_type="text" id="4OIkW2CWt_Ea">
+<p><b>9. Попробуйте найти что-нибудь интересное (необычное) на вашем
+рынке. Используйте любые известные вам методы анализа данных.</p>
+</div>
+<div class="cell markdown">
+<p>Мы будем использовать горизонтальный анализ данных. Горизонтальный
+анализ бухгалтерского баланса имеет целью отразить изменения показателей
+в натуральном выражении — процентах или рублях. Обычно сравнивают
+текущий период с одним из предыдущих.</p>
+</div>
+<div class="cell markdown">
+<p><b> Braskem</p>
+</div>
+<div class="cell markdown">
+<p>Например, компания Braskem с 2016 по середину 2018 года имела
+активный рост активов, но затем начался отрицательный рост. Из этих
+данных можно сделать вывод, что дальше цены акции будут и дальше падать
+в цене.</p>
+</div>
+<div class="cell markdown">
+<p><img src="vertopal_bc5554323aec4b8c9a6a2ba41421e84a/image.png"
+alt="image.png" /></p>
+</div>
+<div class="cell markdown">
+<p>И как мы видим из последующего года, так и получилось. Начиная с
+середины 2018 года пошёл резкий обвал стоимости акций.</p>
+</div>
+<div class="cell markdown">
+<p><img src="vertopal_bc5554323aec4b8c9a6a2ba41421e84a/image.png"
+alt="image.png" /></p>
+</div>
+<div class="cell markdown">
+<p><b> Banco Bradesco</p>
+</div>
+<div class="cell markdown">
+<p>Если сравнивать предыдущую компанию с очень близкой к ней, то мы
+заметим, что с 2016 по 2018 год был плавный подъем в цене, но затем к
+середине 2018 года цена резк упала почти к значению начала 2016. В 2019
+году цена на акции достигла максимальных значений и рухнула к 2020
+году.</p>
+</div>
+<div class="cell markdown">
+<p><img src="vertopal_bc5554323aec4b8c9a6a2ba41421e84a/image.png"
+alt="image.png" /></p>
+</div>
+<div class="cell markdown">
+<p><b> GOL Linhas Aereas Inteligentes</p>
+</div>
+<div class="cell markdown">
+<p>Как мы можем заметить Banco Bradesco и GOL Linhas Aereas Inteligentes
+имеют очень схожие графики.</p>
+</div>
+<div class="cell markdown">
+<p><img src="vertopal_bc5554323aec4b8c9a6a2ba41421e84a/image.png"
+alt="image.png" /></p>
+</div>
+<div class="cell markdown">
+<p><b> Общий вывод</p>
+</div>
+<div class="cell markdown">
+<p>Посмотрев акции оставшихся компаний мы заметили общую черту у каждой
+из них. Акции всех компаний упали в начале 2020 года. В 2020 году
+экономика Бразилии сократилась на 4,1%, что стало наибольшим спадом за
+последние 30 лет. В основном он был вызван пандемией COVID-19. 1</p>
+</div>
+</body>
+</html>
